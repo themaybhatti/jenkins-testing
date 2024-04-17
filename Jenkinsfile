@@ -18,12 +18,7 @@ pipeline {
                 }
                 echo 'Additional Dependencies...'
                 script {
-                    sh '''
-                        cd /tmp
-                        wget -q https://releases.hashicorp.com/packer/1.10.2/packer_1.10.2_linux_amd64.zip
-                        unzip /tmp/packer_1.10.2_linux_amd64.zip
-                        sudo cp packer /usr/local/bin
-                    '''
+                    echo 'checking'
                 }
             }
         }
