@@ -18,7 +18,7 @@ pipeline {
                 }
                 echo 'Additional Dependencies...'
                 script {
-                    echo 'checking'
+                    echo 'checking commit'
                 }
             }
         }
